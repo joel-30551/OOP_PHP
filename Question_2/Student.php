@@ -15,14 +15,14 @@ class Student{
         return $this->studentId;
     }
     public function setStudentId(){
-        $this->studentId;
+        $this->studentId = $studentId;
     }
 
     public function getName(){
         return $this->name;
     }
     public function setName(){
-        $this->name;
+        $this->name = $name;
     }
 
     public function getScore(){
