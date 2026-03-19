@@ -14,14 +14,14 @@ class Student{
     public function getStudentId(){
         return $this->studentId;
     }
-    public function setStudentId(){
+    public function setStudentId($studentId){
         $this->studentId = $studentId;
     }
 
     public function getName(){
         return $this->name;
     }
-    public function setName(){
+    public function setName($name){
         $this->name = $name;
     }
 
