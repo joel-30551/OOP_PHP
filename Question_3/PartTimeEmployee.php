@@ -14,7 +14,7 @@ class PartTimeEmployee extends Employee{
     
     public function calculateAnnualSalary()
     {
-        //Based hours worked per week
+        //Based on hours worked per week.
         return  $this->hoursWorked * $this->hourlyRate * 52;
     }
 }
