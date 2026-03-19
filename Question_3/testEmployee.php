@@ -3,7 +3,7 @@ require_once "Employee.php";
 require_once "FulltimeEmployee.php";
 require_once "PartTimeEmployee.php";
 
-$employee1 = new Employee("Joel",2000000);
+$employee1 = new Employee("Joel Webs",2000000);
 echo"Employee Salary.<br>";
 echo"Annual Salary:". $employee1->calculateAnnualSalary();
 echo"<p>";
@@ -13,7 +13,7 @@ echo"Full Time Employee Salary.<br>";
 echo"Annual Salary:" . $fullemployee1->calculateAnnualSalary();
 echo"<p>";
 
-$partemployee1 = new PartTimeEmployee("JOhn Wesley",15.95,15);
+$partemployee1 = new PartTimeEmployee("John Wesley",15.95,15);
 echo"Part Time Employee Salary.<br>";
 echo"Annual Salary:". $partemployee1->calculateAnnualSalary();
 echo"<p>";
